@@ -128,7 +128,7 @@
 }
 
 .service-header h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-bottom: 80px;
     position: relative;
@@ -185,4 +185,12 @@
 }
 .service-box .service-details {
     margin-top: 8px;
+}
+
+/* Car Collection Section  */
+
+.car-collection-section {
+    padding: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
