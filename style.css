@@ -10,7 +10,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('bg3.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('image/bg3.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -193,4 +193,33 @@
     padding: 100px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+}
+.service-header .btn{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.service-header .btn input{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    user-select: none;
+    background: #fff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #FAC427;
+    margin-right: 10px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.service-header .btn input.active,
+.service-header .btn input:hover {
+    background: #FAC427;
+}
+
+
+.image-gallary .car {
+    width: 33%;
+    height: 250px;
 }
